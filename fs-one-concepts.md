@@ -51,13 +51,12 @@ controller specs allow for you to simulate a single http request in each example
 
 #### 8. Describe the React component lifecycle. What are some of the lifecycle methods?
 
-There are different lifecycle methods that react provides at different phases of a component's life. React automatically calls the responsible method according to the phase in which the component is. By doing so we have better control over our component and can mainpulate them through said methods. 
+React lifecycle methods are a series of events tha happen from the birth of a react component to its death common methods include:
 
-Lifecycle methods include:
-- initialization
-- mounting
-- updating
-- unmounting
+- render(): it is the only required method within a class component in react
+- componentDidMount(): is called as soon as the component is mounted and ready to go and a good place to initiate API calls
+- componentDidUpdate(): A lifecycle method invoked as soon as the updating happens
+- componentDidWillUnmount( ): this method is called when the component is unmounted and destroyed. The perfect spot to clean everything up!
 
 
 #### 9. At this point in the program, what technologies/languages do you find yourself gravitating to?
